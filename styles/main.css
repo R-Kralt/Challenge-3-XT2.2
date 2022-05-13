@@ -1,0 +1,35 @@
+body {
+	background-color: grey;
+	height: 800px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas:
+		"ad1 ad1 ad2"
+		"ad1 ad1 ad2"
+		"ad1 ad1 ad2"
+	}
+
+	.ad1 {
+	  grid-area: ad1;
+	}
+	.ad2 {
+	  grid-area: ad2;
+	}
+}
+
+#map {
+	width: 900px; 
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mapback {
+	width: 1000px;
+	height: 700px;
+}
+
+#weather {
+	margin-left: 50px;
+	margin-top: 100px;
+}
