@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Challenge 3</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+	<script src="scripts/script.js" defer></script>
+	<link href="styles/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.png" alt="Logo Space X">
+		</header>
+		<article class="flex-item-map">
+				<div id="map"></div>
+		</article>
+		<section class="flex-container">
+			<article class="flex-item">
+				<h2>SpaceX Landingsheet</h2>
+				<h4>This is the spaceX landing sheet, this sheet will help to locate the optimal landing place in the world to help return our astronauts</h4>
+				<img src="images/logo.png" id="logotxt" alt="Logo Space X">
+				<div id="landingsheet">
+				</div>
+			</article>	
+
+			<article class="flex-item">
+				<h2>Schiphol Airport</h2>
+				<div id="weather"></div>
+				<button class="knop" id="locate">Find location</button>
+			</article>
+
+			<article class="flex-item">
+				<h2>the King Fahd International Airport</h2>
+				<div id="weather2"></div>
+				<button class="knop" id="locate2">Find location</button>
+			</article>
+
+			<article class="flex-item">
+				<h2>Svalbard Airport</h2>
+				<div id="weather3"></div>
+				<button class="knop" id="locate3">Find location</button>
+			</article>
+		</section>
+	</body>
+</html>
